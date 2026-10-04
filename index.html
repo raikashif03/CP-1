@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <style>
+
+    body {
+        font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+  
+    .box {
+      width: 750px;
+       margin: 0 auto;
+      border: 1px solid black;
+      padding: 25px;
+      }
+
+    
+    .nav {
+    
+        overflow: hidden;
+         margin-bottom: 40px;
+    }
+
+    .nav-left {
+        float: left;
+    }
+
+    .black-box {
+      display: inline-block;
+       width: 18px;
+      height: 18px;
+      background: black;
+       border-radius: 3px;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+
+    .nav-right {
+      float: right;
+       font-size: 14px;
+    }
+
+    .nav-right a {
+      color: black;
+       text-decoration: none;
+       }
+
+   
+    .hero {
+      text-align: center;
+         margin-bottom: 40px;
+    }
+
+    .hero h1 {
+      font-family: "Comic Sans MS", cursive;
+       font-size: 38px;
+        margin: 0;
+    }
+
+    .hero p {
+      font-size: 13px;
+        color: gray;
+      margin-top: 5px;
+    }
+
+    .table-section {
+      display: flex;
+       border-top: 3px double black;
+      border-bottom: 1px solid black;
+       margin-bottom: 30px;
+    }
+
+    h2 {
+      font-family: "Comic Sans MS", cursive;
+      font-size: 18px;
+       margin: 0;
+    }
+
+  
+    .col-1 {
+      width: 25%;
+       border-right: 1px solid black;
+    }
+
+    .col-1 h2 {
+      padding: 10px;
+    }
+
+    .project {
+      border-top: 1px solid black;
+       padding: 8px 10px;
+      font-size: 13px;
+    }
+
+   
+    .col-2 {
+      width: 40%;
+      border-right: 1px solid black;
+    }
+
+    .part-1 {
+      padding: 10px;
+      border-bottom: 1px solid black;
+    }
+
+    .part-2 {
+      padding: 10px;
+    }
+
+    .col-2 b {
+      display: block;
+      font-size: 14px;
+      margin: 8px 0 4px 0;
+    }
+
+    .col-2 p {
+      font-size: 13px;
+      margin: 0 0 8px 0;
+    }
+
+    .col-2 a {
+      font-size: 12px;
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    .col-3 {
+      width: 35%;
+      padding: 10px;
+    }
+
+    .col-3 p {
+      font-size: 13px;
+      margin: 10px 0;
+    }
+
+    .courses-title {
+      font-size: 13px;
+      margin-bottom: 5px;
+    }
+
+    .col-3 ul {
+      margin: 0;
+      padding-left: 15px;
+      list-style-type: "- ";
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    .reviews-section {
+      margin-bottom: 50px;
+    }
+
+    .reviews-section h2 {
+      margin-bottom: 15px;
+    }
+
+    .reviews-boxes {
+      display: flex;
+      gap: 15px;
+    }
+
+    .review-item {
+      flex: 1;
+      border: 1px solid black;
+      border-radius: 20px;
+      padding: 15px;
+      font-size: 13px;
+      min-height: 120px;
+    }
+
+    .author {
+      margin-top: 15px;
+      font-size: 12px;
+      color: gray;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+
+    <div class="nav">
+      <div class="nav-left">
+        <span class="black-box"></span>
+        <span>Muhammad Kashif</span>
+      </div>
+      <div class="nav-right">
+        <a href="#">Home</a> / 
+      
+        <a href="#">Projects</a> / 
+      
+        <a href="#">Articles</a> / 
+      
+        <a href="#">Contact</a>
+      </div>
+    </div>
+
+    <div class="hero">
+      <h1>Frontend Developer</h1>
+      <p>html only with proper layout, no styling</p>
+    </div>
+
+    <div class="table-section">
+
+        <div class="col-1">
+        <h2>Projects</h2>
+           <div class="project">HTML Only Portfolio</div>
+    
+             <div class="project">Calculator</div>
+          <div class="project">Quiz App</div>
+          <div class="project">Countdown Timer</div>
+        <div class="project">Product Upcoming Page</div>
+      </div>
+
+      <div class="col-2">
+        <div class="part-1">
+          <h2>Work Experience</h2>
+          <b>roadmap.sh</b>
+          <p>Solved all the frontend projects</p>
+          <a href="#">Visit my Profile</a>
+        </div>
+        <div class="part-2">
+          <h2>OpenSource Work</h2>
+          <p style="margin-top: 8px;">Contributed to 50 opensource projects. Made my own projects with 200 GitHub Stars.</p>
+          <a href="#">Visit my GitHub Profile</a>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <h2>Education</h2>
+        <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
+        <div class="courses-title">Courses I took:</div>
+        <ul>
+          <li>Object Oriented Programming</li>
+          <li>Data Structures and Algorithms</li>
+        
+          <li>Web Engineering</li>
+        
+          <li>Artificial Intelligence</li>
+        
+          <li>Human Computer Interaction</li>
+        
+        
+          <li>Computer Graphics</li>
+        
+          <li>Database Management Systems</li>
+          <li>Distributed Database Systems</li>
+          <li>Discreet Mathematics</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="reviews-section">
+      <h2>Reviews from my Teachers</h2>
+      <div class="reviews-boxes">
+        <div class="review-item">
+          <div>John doe was a brilliant student; always stood out with his assignments.</div>
+          <div class="author">Jane Doe<br>Assistant Professor</div>
+        </div>
+        <div class="review-item">
+          <div>John doe was a brilliant student; always stood out with his assignments.</div>
+          <div class="author">Jane Doe<br>Assistant Professor</div>
+        </div>
+        <div class="review-item">
+          <div>John doe was a brilliant student; always stood out with his assignments.</div>
+          <div class="author">Jane Doe<br>Assistant Professor</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      &copy; all rights reserved 2025
+    </div>
+
+  </div>
+
+</body>
+</html>
